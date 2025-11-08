@@ -1,19 +1,68 @@
----
-pcx_content_type: concept
-title: Full setup
-sidebar:
-  order: 1
-  label: About
----
-
-import { FeatureTable, Render } from "~/components";
-
-<Render file="full-setup-definition" product="dns" />
-
-## How to
-
-For more details, refer to [Set up a full domain](/dns/zone-setups/full-setup/setup/).
-
-## Availability
-
-<FeatureTable id="dns.full_setup" />
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بیمه عابدی</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Vazir", sans-serif;
+      background: linear-gradient(135deg, #001f3f, #0d2249);
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 60px;
+      color: #f5c542;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 24px;
+      color: #ffffff;
+      margin-top: 0;
+    }
+    .logo {
+      font-size: 80px;
+      color: #f5c542;
+      position: relative;
+    }
+    .logo::before {
+      content: "☂️";
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 80px;
+      color: silver;
+      text-shadow: 0 0 10px #ccc;
+    }
+    .btn {
+      margin-top: 40px;
+      background-color: #f5c542;
+      color: #001f3f;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">بیمه</div>
+  <h1>عابدی</h1>
+  <p>با ما احساس امنیت و آرامش را تجربه کنید</p>
+  <a href="tel:09359403240" class="btn">تماس با ما</a>
+</body>
+</html>
